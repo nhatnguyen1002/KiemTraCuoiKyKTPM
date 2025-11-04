@@ -11,9 +11,27 @@ package com.mycompany.nhom13.lop01;
 public class Student {
     private String id;
     private String name;
+
     
     
-    //constructors
+    public Student(String id, String name){
+        this.id = id;
+        this.name = name;
+    }
+    // getters and setters
+    public String getId(){
+        return id;
+    }
+    public String getId(String newid){
+        newid = id;
+        return newid;
+    }
+    public String getName(){
+        return name;
+    }
+    public String getName(String newname){
+        newname = name;
+        return newname;
+    }
     
-    //getters and setters
 }
